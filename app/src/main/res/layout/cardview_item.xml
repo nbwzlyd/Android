@@ -2,11 +2,9 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
-    android:layout_marginBottom="2dp"
-    android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp"
-    android:layout_marginTop="2dp"
+    android:layout_height="100dp"
+    android:layout_margin="6dp"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="5dp"
     app:elevation="1dp">
 
@@ -17,30 +15,48 @@
 
         <ImageView
             android:id="@+id/news_iv"
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:src="@mipmap/ic_launcher" />
 
-        <TextView
-            android:id="@+id/news_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/news_iv"
-            android:maxLines="2"
-            android:padding="2dp"
-            android:paddingRight="3dp"
-            android:text="李宝荣任国管局局长、党组书记 焦焕成到龄卸任"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/news_time"
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:padding="2dp"
-            android:text="2015-10-21 12:56" />
+            android:layout_toLeftOf="@id/news_iv"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:padding="2dp"
+                android:text="李宝荣任国管局局长、党组书记 焦焕成到龄卸任"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/news_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="2dp"
+                android:text="2015-10-21 12:56" />
+
+            <TextView
+                android:id="@+id/news_source_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:maxLines="2"
+                android:padding="2dp"
+                android:text="网易新闻"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
     </RelativeLayout>
 
 

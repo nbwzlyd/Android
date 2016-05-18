@@ -3,4 +3,267 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white_color">#ffffff</color>
+    <!-- 3种常用字体颜色  , c means custom -->
+    <color name="c_text_color">#ff646464</color>
+    <color name="c_tcolor_dark">#ff333333</color>
+    <color name="c_tcolor_light">#ff999999</color>
+    <color name="c_tcolor_dark_grey">#ff7f7f7f</color>
+    <color name="c_tcolor_light_grey">#ffcccccc</color>
+    <color name="c_tcolor_grey">#ff555555</color>
+    <color name="c_tcolor_grey2">#ff666666</color>
+    <color name="c_tcolor_grey3">#ffb4b4b4</color>
+    <color name="c_tcolor_actionbar">#ff444444</color>
+    <color name="transparent_gray">#87000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="notes_detail_bg">#F6F8FB</color>
+    <color name="lightblue">#ff72a9e0</color>
+    <color name="lightgray2">#ff999999</color>
+    <color name="common_text">#ff4F4F4F</color>
+    <color name="list_item_bg_color">#ffecf1f6</color>
+    <color name="item_content_color">#ffE6EAED</color>
+    <color name="text_green">#ff7fbc15</color>
+    <color name="verification_code">#ffebebeb</color>
+    <color name="totel_icon">#ff83bf10</color>
+    <color name="totel_icon_order">#ffff5500</color>
+    <color name="bg_color_search">#ffd2d8de</color>
+    <color name="bg_travel_gray">#ffe6e9ec</color> <!-- 橙色 -->
+    <color name="bg_travel_order_gray">#fff6f6f6</color> <!-- 灰色 -->
+    <color name="bg_orderlist_top">#fff5f5f5</color>
+    <color name="c_dark_map">#ff727272</color>
+    <color name="travel_seckill_color">#ffff7661</color>
+    <color name="travel_mobileexclusive_color">#ff66ccff</color>
+    <color name="register_title_c">#ff9f9f9f</color>
+    <color name="c_seckill_before">#ff9a9a9a</color><!-- 秒杀抢购前的颜色 -->
+    <!-- 规范 -->
+    <color name="gray">#ff434e5a</color> <!-- 深灰色（正文等） -->
+    <color name="linegray">#ff9ea5ac</color> <!-- 浅灰色（提示语、说明文字等） -->
+    <color name="line_bg_gray">#ffe7eef5</color> <!-- 下拉框背景色 -->
+    <color name="green">#ff46d264</color> <!-- 6.3改为绿色 -->
+    <color name="green_deep">#ff27be48</color> <!-- 6.3改为绿色 -->
+    <color name="orange_submit">#ffff6600</color> <!-- 橙色 -->
+    <color name="orange">#ffff8400</color> <!-- 橙色 -->
+    <color name="bg_famous_scenery_title">#8A000000</color> <!-- 半透明黑色 -->
+    <color name="black_three">#07000000</color> <!-- 3%透明黑色 -->
+    <color name="frame_gray">#ffcecece</color>
+    <color name="icon_text_color">#ff404040</color>
+    <color name="line_divider_gray">#ffD9D9D9</color><!-- 灰色分割线 -->
+    <color name="bg_frame_green">#e9fff0</color>
+
+    <!-- Zxing -->
+    <color name="contents_text">#ff000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="viewfinder_frame">#ff50b400</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_weekdaytext">#ff58b5e1</color>
+    <color name="calendar_weekday_bg">#ffe9ebed</color>
+    <color name="calendar_cell_novalidate">#ffc8d2dc</color>
+    <color name="calendar_text_today">#ffdc5f25</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="actionbar_title_pressbg">#ffe6e6e6</color>
+    <color name="btn_weixin_up">#ff08c717</color> <!-- 微信按钮up -->
+    <color name="btn_weixin_down">#ff07ae14</color> <!-- 微信按钮down -->
+    <color name="travel_green">#ff5EC9B3</color> <!-- 绿色 -->
+    <color name="travel_orange">#ffFAA066</color> <!-- 橙色 -->
+    <color name="travel_red">#ffEF88A1</color> <!-- 红色 -->
+    <color name="travel_blue">#ff74CEF5</color> <!-- 蓝色 -->
+    <color name="travel_weekendgroup_color">#ff56D8C4</color> <!-- 蓝绿色 -->
+    <color name="scenery_main_search">#fffe932b</color>
+    <color name="scenery_main_search_press">#ffe9780b</color>
+    <color name="order_book_orange">#ffffaa2d</color> <!-- 预订背景橙色 -->
+    <color name="ok_btn_bg_pressed">#ff32aa50</color>
+    <color name="bg_order_orange">#ffff992b</color>
+    <color name="white_half">#E6ffffff</color> <!-- 百分之90透明度半透明白色 -->
+    <color name="white_half2">#ccffffff</color> <!-- 百分之80透明度半透明白色 -->
+    <color name="white_half3">#7fffffff</color>
+    <color name="white_half4">#4cffffff</color>
+    <color name="white_half5">#99ffffff</color><!-- 百分之60透明度半透明白色 -->
+    <color name="white_half6">#b2ffffff</color><!-- 70%白的 -->
+    <color name="seven_percent_alpha_black">#B2000000</color><!-- 70%透明黑 -->
+    <color name="blue_half1">#b2005ECC</color>
+    <color name="filter_bg_child">#ff2c2b2b</color>
+    <color name="filter_bg_parent">#ff393939</color>
+    <color name="vip_down">#fff7d0</color>
+    <color name="vip_up">#fff7d0</color>
+    <color name="holo_black">#dd222222</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="huise">#fff2f2f2</color>
+    <color name="popupbgcolor">#80000000</color>
+    <color name="bg_bg">#fff0f0f0</color> <!-- 大背景色 -->
+    <color name="lable_green">#ff55c3aa</color> <!-- 标签纯色块，绿色 -->
+    <color name="lable_red">#ffff4800</color> <!-- 标签纯色块，红色 -->
+    <color name="lable_orange">#ffff9500</color> <!-- 标签纯色块，橙色 -->
+    <color name="lable_pink">#fff87192</color> <!-- 标签纯色块，粉色 -->
+    <color name="scenery_grey">#80000000</color><!-- 景区大图 文案显示背景 -->
+    <color name="wish_title_bg">#46c6f3</color><!-- dialog黑色半背景 -->
+
+    <color name="color1">#ff59d390</color>
+    <color name="color2">#ff03ccce</color>
+    <color name="wish_go">#ff5e61bf</color>
+    <color name="ass_push_item_line">#ff5e61bf</color>
+    <color name="ass_push_back_color">#ffe5e5e5</color>
+    <color name="ass_push_head_time_grey">#ffa0a1a4</color>
+    <color name="scenery_gray_white">#ff999988</color>
+    <color name="scenery_submit_white">#ffffc39a</color>
+
+
+    <!-- train start -->
+    <color name="train_list_sort_txt_normal">#bbbbbb</color>
+    <color name="train_append_ticket_text">#ff8400</color>
+    <!-- train end -->
+
+    <!-- tab page indicator -->
+    <color name="default_tab_indicator_unselected_color">#ffcccccc</color>
+    <color name="default_tab_indicator_selected_color">#ff46d264</color>
+    <!-- flight list top -->
+    <color name="flight_list_start_date_color">#ffabaeb3</color>
+    <!-- hotel -->
+    <color name="text_green_price">#50b400</color>
+    <color name="bg_hotel_star">#f5f5f5</color>
+
+    <!-- 用于选中，成功提示 -->
+
+    <color name="main_orange">#ffff6815</color><!-- 用于价格，警告 -->
+    <color name="main_orange_press">#fff25f0e</color><!-- 用于橘色按下的效果 -->
+    <color name="main_white">#ffffffff</color><!-- 用于反白 -->
+    <color name="main_light_orange">#ffff8400</color><!-- 用于按钮 非按下 -->
+    <color name="main_light_press_orange">#ffff6600</color><!-- 用于按钮 按下-->
+    <color name="main_line">#ffe4e4e4</color><!-- 用于分割线、按钮描边 -->
+    <color name="main_link">#ff00a0ff</color><!-- 用于链接色 -->
+
+    <color name="main_click">#ffeeeeee</color><!-- 用于点击色 -->
+    <color name="main_unclick">#ffFFC3A1</color><!-- 用于橘色按钮不可点击 -->
+    <color name="main_tips_bg_grey">#ffabaeb3</color><!-- 用于灰色背景 -->
+    <color name="main_null">#ffc0c5d0</color><!--Null -->
+    <color name="main_hint_seachbox">#ffbbbbbb</color><!-- 搜索框用字体色-->
+    <color name="main_white_transparent">#66ffffff</color><!-- 40%透明纯白-->
+    <color name="main_filter_click">#ffc8c8c8</color><!-- 筛选按下颜色-->
+    <color name="main_alpha_green">#652ebd59</color><!-- 绿色文字按下颜色 -->
+    <color name="main_alpha_white">#64ffffff</color>
+    <color name="main_tips_warning">#ff9e8052</color><!-- 提醒文字颜色 -->
+    <color name="pull_to_refresh_ring">#ff24c354</color><!-- 下拉刷新圆圈的颜色 -->
+    <color name="main_noresult_title">#ffed8336</color><!-- 无结果推荐主标题颜色 -->
+    <color name="main_noresult_subtitle">#ffe7aa6f</color><!-- 无结果推荐副标题颜色 -->
+    <color name="label_red">#ffff735c</color><!-- 淡红色标签 -->
+    <color name="main_thin_green">#ff71FF00</color>
+    <!-- 7.0 标签色值 -->
+    <color name="label_tuan_hot">#ffff6d4f</color><!-- 团购、热度 -->
+    <color name="label_favorable">#ffff9f20</color><!-- 优惠相关 -->
+    <color name="label_quick_speedy">#ff50b400</color><!-- 快速、便捷 -->
+    <color name="label_other">#ff4ca4ff</color><!-- 其他 -->
+    <color name="login_link">#ff005ECC</color><!-- 用于链接色 -->
+
+    <!-- 7.0 bg色值 -->
+    <color name="bg_action_bar">#fff5f5f5</color><!-- 用于导航栏 -->
+    <color name="bg_expander">#fff6f8fb</color><!-- 用户cell展开后的背景色 -->
+    <color name="bg_mask">#78000000</color><!-- 蒙层色，50%纯黑 -->
+    <color name="bg_main">#fff2f4f7</color><!-- 用于大背景色 -->
+
+    <color name="bg_pressed">#ffededed</color><!-- 用于cell按压色 -->
+    <color name="bg_card">#ff61aefd</color><!-- 用于机票卡片背景色 -->
+    <color name="bg_chooseseat">#ffe8e8e8</color><!--机票选座背景 -->
+    <color name="bg_noresult_hint">#fff7d0</color><!-- 无结果推荐提示背景色 -->
+
+    <color name="list_item_pressed">#eeeeee</color>
+
+    <color name="strategy_green_introduction">#ffe3f5f6</color><!-- 一分钟了解 -->
+    <color name="strategy_blue_read">#ffe1ebf5</color><!-- 初访必读 -->
+    <color name="strategy_yellow_experience">#fffaf2e3</color><!-- 最佳体验 -->
+    <color name="strategy_green_shopping">#ffedf3d7</color><!-- 购物 -->
+
+    <color name="strategy_red_food">#fffbeaea</color><!-- 美食 -->
+    <color name="strategy_yellow_entertainment">#fffaeee3</color><!-- 娱乐 -->
+    <color name="strategy_blue_transportation">#ffdff1f6</color><!-- 交通 -->
+    <color name="strategy_purple_line">#fff2e6f9</color><!-- 线路 -->
+
+
+    <color name="hotel_comment_color">#ffFFA200</color>
+
+    <color name="flight_date_color">#ffff6633</color>
+
+    <color name="flight_dynamic_detail_news_foreground">#9e8052</color>
+
+    <color name="bg_welcome">#fffafafa</color>
+
+    <color name="travel_five_star_useable_color">#ff968649</color><!-- 五星卡 -->
+    <color name="travel_five_star_disable_color">#ffbfbfbf</color><!-- 五星卡 -->
+    <color name="travel_five_star_use_text_color">#ffdedac3</color><!-- 五星卡 -->
+    <color name="travel_list_arigtainment_color">#f5f5f5</color>
+    <color name="home_search_hint">#ffaaaaaa</color><!-- 大首页搜索框hint -->
+
+    <color name="my_green_bottom_bg">#cc539710</color><!-- 我的界面地部绿色背景 -->
+    <color name="my_bottom_line">#69ab29</color><!-- 我的界面地部绿色背景 -->
+
+    <color name="sixty_percent_alpha_white">#99FFFFFF</color><!-- 60%透明白 -->
+    <color name="bg_filter_tab">#ff2e343b</color><!-- 列表筛选tab背景色 7.3新增-->
+    <color name="bg_filter_tab_trans">#F72e343b</color><!-- 列表筛选tab背景色97%透明度 7.6.1新增-->
+    <color name="bg_search_tab">#ff51565b</color><!-- 列表筛选tab背景色 7.3新增-->
+
+    <color name="bg_messagebox_setting_notice">#fffff7dc</color><!-- 系统消息分类设置提醒栏背景色 7.3新增-->
+    <color name="text_messagebox_setting_notice">#ff9a7b4e</color>
+    <color name="bg_hotel_notice">#aaaeb2</color><!-- 系统消息分类设置提醒栏背景色 7.3新增-->
+    <color name="ninety_percent_alpha_black">#E6000000</color><!-- 90%透明黑 -->
+    <color name="ten_percent_alpha_black">#19000000</color><!-- 10%透明黑 -->
+    <color name="flight_dynamic_track_text_color">#ff969696</color><!-- 航班动态历史消息文字颜色 -->
+
+    <color name="tipswarningbg">#fffff7dc</color>
+    <color name="tipswarning">#ff9e8052</color>
+    <color name="travel_detail_divide_pay_advice_divider">#ffebe4cb</color>
+    <color name="rippelColor">#0099CC</color><!-- 雷达扫描的颜色 -->
+
+    <color name="main_primary_transparent">#66333333</color>
+    <color name="scenery_beside_main">#fff3f5f7</color><!-- 景区首页周边城市经典景点背景色 -->
+    <color name="address_bg">#ff353a41</color><!-- 地址选择地区的背景色-->
+    <color name="comment_operation_bg">#ff343a41</color> <!-- 点评详情底部operation的背景色-->
+
+    <color name="scenery_payment_select_bg">#E9FFF0</color> <!-- 景区下单后置支付方式选中背景 -->
+    <color name="common_contact_scenery_green">#bee6c7</color>
+
+    <!-- 客户端更新弹框-->
+    <color name="update_progress_background">#ffe9ecf1</color><!-- 更新弹框进度条背景颜色 -->
+    <color name="update_button_stroke_color">#ffffb38a</color>
+
+    <!-- 我身边列表条数提示背景 -->
+    <color name="nearby_filter_bg">#e9ecf0</color>
+
+    <color name="vertical_line">#dcdcdc</color>
+
+    <!--酒店日历在入住和离店日期中间的颜色-->
+    <color name="hotel_calendar_textview_betweendate_bg">#192ebd59</color>
+
+    <!-- 列表页Cell UED统一方案 TypeB_1图片下方标签背景颜色 -->
+    <color name="cell_price_red">#ffff4614</color>
+    <color name="bg_cell_image_tag_bottom_color">#d8596d85</color>
+    <color name="satisfied_highlight">#ff8400</color>
+    <color name="cell_hint">#777777</color>
+    <color name="bg_cell_button">#eeeeee</color>
+    <color name="free_green">#2ebd59</color>
+    <color name="bg_cell_recommend_tag">#ffac35</color>
+    <color name="bg_cell_image_tag">#50b400</color>
+
+    <!-- indexbar 50% white -->
+    <color name="indexbar_white">#78ffffff</color><!-- 用于反白 -->
+
+    <!-- 筛选组件 -->
+    <color name="filter_clear_bg">#ff274d4b</color>
+    <color name="filter_clear_bg_alpha">#65274d4b</color>
+    <color name="common_filter_clear_fg">#ffb8cbca</color>
+
+    <color name="image_bottom_tag_color_gold">#978a72</color>
+
+    <color name="order_travel_background">#ff4614</color><!--周边游预定按钮背景-->
+
+    <!--列表交互-->
+    <color name="common_list_filter_background">#f30b3c39</color> <!-- 筛选背景 -->
+    <color name="common_list_filter_background_original">#0b3c39</color>
+
+    <color name="red_dot_color">#fd593f</color>
 </resources>

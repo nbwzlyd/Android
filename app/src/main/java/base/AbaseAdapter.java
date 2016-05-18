@@ -1,9 +1,11 @@
-package utils;
+package base;
 
 import android.widget.BaseAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import utils.Utils;
 
 /**
  * Created by lyd10892 on 2016/5/17.
